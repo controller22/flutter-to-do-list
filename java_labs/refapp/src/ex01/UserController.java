@@ -1,5 +1,6 @@
 package ex01;
 
+@Controller
 public class UserController {
 
     @RequestMapping(uri="/login")
@@ -7,7 +8,7 @@ public class UserController {
         System.out.println("login() 호출됨");
     }
 
-    @RequestMapping(uri="/jogin")
+    @RequestMapping(uri="/join")
     public void join(){
         System.out.println("join() 호출됨");
     }
